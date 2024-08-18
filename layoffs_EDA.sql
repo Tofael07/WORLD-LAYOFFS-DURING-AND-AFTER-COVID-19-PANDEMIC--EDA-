@@ -1,4 +1,4 @@
--- Exploratory Data Analysis (EDA) of world layoffs data
+-- Exploratory Data Analysis (EDA) of world layoffs data.
 
 -- Here we are going to explore the data and find trends or patterns or anything interesting.
 
@@ -18,7 +18,7 @@ FROM layoffs_staging2
 WHERE percentage_laid_off = 1
 ORDER BY total_laid_off DESC;
 
--- Which companies had 1 which is basically 100 percent of they company laid off
+-- Which companies had 1 which is basically 100 percent of their company laid off
 
 SELECT *
 FROM layoffs_staging2
