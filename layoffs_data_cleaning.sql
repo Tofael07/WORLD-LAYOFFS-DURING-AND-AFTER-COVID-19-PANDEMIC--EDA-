@@ -1,4 +1,4 @@
--- Data Cleaning world layoffs data --
+-- Data Cleaning of world layoffs data --
 
 -- https://www.kaggle.com/datasets/swaptr/layoffs-2022
 
@@ -17,7 +17,7 @@ INSERT INTO layoffs_staging
 SELECT *
 FROM layoffs;
 
--- Now when we perform data cleaning, we usually follow a few steps
+-- Now we are going to perform data cleaning by following a few steps
 
 -- 1. Remove Duplicates
 -- 2. Standardize the Data
