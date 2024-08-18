@@ -88,7 +88,7 @@ FROM layoffs_staging2
 WHERE row_num >1;
 
 
--- Standardizing Data.
+-- 2. Standardizing Data.
 
 
 SELECT *
